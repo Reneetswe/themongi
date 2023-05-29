@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<title>TV Shows</title>
+		<style>
+		body {
+				background-color:black;
+				background-size: cover;
+				background-attachment: fixed;
+				}
+				.hero{
+					width:100%;
+				}
+				nav{
+					display:flex;
+					align-items:center;
+					justufy-content:space-between;
+					padding-top:40px;
+					padding-left:10%;
+					padding-right:10%;
+					margin-right:25px;
+				}	
+				nav ul li{
+					list-style-type:none;
+					display:inline-block;
+					padding:10px 20px;
+					
+				}	
+				nav ul li a{
+					color:white;
+					text-decoration:none;
+					font-weight:bold;
+					
+				}
+				
+				nav ul li a:hover{
+					color:#ea1538;
+					transition: .3s;
+				}	
+				
+				
+				
+				header img{
+				width:200px;
+				height:300px;
+				padding:0.1em;
+				}
+			.container{
+					position:relative;
+					width:200px;
+					height:300px;
+					display:inline-block;
+					padding:0.1em;
+				}
+				.image{
+					display:block;
+					width:200px;
+					height:300px;
+					
+				}
+				.overlay{
+					position:absolute;
+					transition:all .3s ease;
+					opacity:0;
+					background-color:#eee;
+				}
+				.container:hover .overlay{
+					opacity:1;
+					}
+				.text{
+					color:white;
+					font-family:sans-serif;
+					position:absolute;
+					top:50%;
+					left:50%;
+					transform:transalte(-50%,-50%);
+					font-size:20px;
+				}
+				.overlayLeft{
+					height:100%;
+					width:0;
+					top:0;
+					left:0;
+					background-color:black;
+				}
+				.container:hover .overlayLeft{
+					width:100%;
+					opacity:0.8;
+				}	
+				
+		footer{
+					background-color:#333;
+					color:#fff;
+					text-align:center;
+					padding:50px;
+					margin-top:100%;
+					text-transform:uppercase;
+					}
+					
+				footer figure{
+					margin-left:6%;
+					float:center;
+					display:inline-block;
+					width:5%;
+					height:10%;
+					list-style:none;
+					margin:10px;
+					}
+				footer ul li  {
+					list-style-type:none;
+					display:inline-block;
+					margin-left:10%;
+					text-decoration:none;
+					margin:8px;
+				}	
+				
+				figure img{
+				 height:35px;
+				 width:35px;
+				 }
+				
+				
+				.search input[type=text]{
+				width:300px;
+				height:25px;
+				border-radius:25px;
+				border:none;
+				}
+				.search{
+				float:right;
+				margin:5px;
+				}
+				.search button{
+				background-color:#0074D9;
+				color:#f2f2f2;
+				float:right;
+				padding:2px 10px;
+				margin-right:16px;
+				font-size:12px;
+				border:none;
+				cursor:pointer;
+				
+				}
+		</style>
+	</head>	
+<body>	
+	<img src="Wblogo.png"
+				style="float:left;Width:90px;height:90px;"/>
+		
+			<div class="hero">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Movie.html">Movies</a></li>
+					<li><a href="TVShows.html">TV Shows</a></li>
+					<li><a href="Video Games and Apps.html">Video Game and Apps</a></li>
+					<li><a href="LogIn.html">Log In</a></li>
+					<li><a href="signup.html">Sign Up</a></li>
+					<li><a href="Feedback.html">Feedback</a></li>
+				</ul>
+				</nav>	
+			</div>	
+				<form class="search">
+				<label>
+				<input type="text" placeholder="Search...">
+				</label>
+				<button type="submit">Search</button>
+				</form>
+				<section>
+				<a href="thenine-nine.html">
+				<img src="nine-nine.jpeg" height="auto" width="100%"/>
+				</section>
+					<header>
+					<h1 style="color:red">|Crime Tv Shows</h1>
+					
+					<div class="container">
+					<img src="black.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Black Lightning</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="lucifer.jpg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Lucifer</div>
+					</div>		
+				</div>
+				<div class="container">
+					<img src="csi.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|CSI:The Finale</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="murder.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|How to get away with Murder</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="nine.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Brooklyn Nine-Nine</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="blacklist.jpg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Blacklist</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="queen.jpg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Queen of the South</div>
+					</div>		
+				</div>
+						
+						
+					</header>
+					<header>
+					<h1 style="color:red">|Tv Dramas</h1>
+					<div class="container">
+					<img src="ginny.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Ginny and Georgia</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="you.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|YOU</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="shannara.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|The Shannara Chronicles</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="riverdale.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|Riverdale</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="izombie.jpg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|iZOMBIE</div>
+					</div>		
+				</div>
+						<div class="container">
+					<img src="mist.jpeg" height="300px" width="250px" alt="Just Mercy" class="image">
+					<div class="overlay overlayLeft">
+						<div class="text">|The Mist</div>
+					</div>		
+				</div>
+						
+						<a href="theland.html">
+					<div class="container">
+					<img src="land.jpeg" a href="theland.html" height="300px" width="250px" alt="The I-Land" class="image" >
+					<div class="overlay overlayLeft">
+						<div class="text">|The I-Land</div>
+					</div>		
+				</div>
+						
+						
+						
+		<footer>
+		<p>TM2023 WarnerBros.Entertainment Inc.All rights reserved.FollowUs: </p>
+			
+		<figure>
+		 <div class="link">
+		 <a href="https://web.facebook.com/WarnerBrosPictures"><img src="imgface.png" height="auto" width="80%" alt="Facebook">
+		 </div>
+		 </figure>
+		 <figure>
+			<div class="link">
+				<a href="https://www.instagram.com/wbpictures"><img src="instagram.png" height="auto" width="80%" alt="Instagram">
+				</div>
+				</figure>
+		<figure>
+			<div class="link">
+				<a href="https://www.tiktok.com/@warnerbrosmovies?lang=en"> <img src="tiktok.png" height="auto" width="80%" alt="Tiktok">
+				</div>
+				</figure>
+		<figure>
+			<div class="link">
+				<a href="https://twitter.com/warnerbrostv"> <img src="tweet.png" height="auto" width="80%" alt="Twitter">
+				</div>
+				</figure>
+		<figure>
+			<div class="link">
+				<a href="https://www.pinterest.com/wbpictures/"><img src="pint.png" height="auto" width="80%"alt="Pinterest">
+				</div>
+				</figure>
+		<ul id="footer menu">
+				<li><a href="">Help</a></li>
+				<li><a href="">Partners</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">AboutUs</a></li>
+				<li><a href="Home.html">Home</a></li>
+		</ul>				
+	</footer>
+</body>	
+</html>
